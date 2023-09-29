@@ -1,0 +1,13 @@
+:host {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: var(--app-header-height, 6rem);
+  color: darkcyan;
+  border: 2px solid darkcyan;
+  background-color: #e1f6f6;
+}

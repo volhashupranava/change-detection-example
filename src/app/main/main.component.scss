@@ -1,0 +1,17 @@
+:host {
+  display: block;
+  height: calc(100vh - var(--app-header-height));
+  padding: 0.5rem 0.75rem;
+  color: #0255f5;
+  border: 3px solid #0255f5;
+  background-color: #ecf0fd;
+  overflow: hidden auto;
+  margin-top: calc(var(--app-header-height));
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+}

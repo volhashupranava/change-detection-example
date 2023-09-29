@@ -1,0 +1,17 @@
+<h4>
+  Form component
+  <!--  {{ getCDCountString() }}-->
+</h4>
+
+<form [formGroup]="form">
+  <label>
+    First name
+    <input formControlName="firstName" required>
+  </label>
+  <label>
+    Last name
+    <input formControlName="lastName" required>
+  </label>
+  <app-button (buttonClick)="submitForm()"></app-button>
+  <p *ngIf="isErrorMessageShown">Form not valid</p>
+</form>

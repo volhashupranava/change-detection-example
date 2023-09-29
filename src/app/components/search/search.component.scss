@@ -1,0 +1,10 @@
+@use "src/styles/component-mixin" as component;
+
+:host {
+  @include component.container(rebeccapurple, #e2daf5);
+  //box-shadow: 5px 2px 2px rgba(82, 62, 100, 0.73);
+
+  input {
+    color: inherit;
+  }
+}

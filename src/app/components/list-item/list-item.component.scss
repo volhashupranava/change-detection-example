@@ -1,0 +1,9 @@
+@use "src/styles/component-mixin" as component;
+
+:host {
+  @include component.container(#c08300, #f6eee1);
+
+  input {
+    color: inherit;
+  }
+}

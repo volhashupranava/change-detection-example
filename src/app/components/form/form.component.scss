@@ -1,0 +1,15 @@
+@use "src/styles/component-mixin" as component;
+
+:host {
+  @include component.container(#015b01, #ceefce);
+
+  input {
+    color: inherit;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

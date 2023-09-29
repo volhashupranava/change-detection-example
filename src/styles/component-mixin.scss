@@ -1,0 +1,9 @@
+@mixin container($color: black, $background-color: white, $border-radius: 3px) {
+  display: block;
+  padding: 0 0.75rem 0.5rem;
+  color: $color;
+  background-color: $background-color;
+  border: 3px solid $color;
+  border-radius: $border-radius;
+  //box-shadow: 5px 2px 2px rgba(168, 13, 115, 0.6);
+}

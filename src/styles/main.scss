@@ -1,0 +1,33 @@
+html {
+  --app-header-height: 6rem;
+  height: 100vh;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+  overflow: hidden;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+//p {
+//  margin: 0.5rem;
+//}
+
+p, label, li {
+  font-size: 0.9rem;
+}
+
+h4 {
+  margin: 0.4rem 0;
+}
+
+body {
+  height: inherit;
+}

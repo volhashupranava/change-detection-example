@@ -1,0 +1,11 @@
+@use "src/styles/component-mixin" as component;
+
+:host {
+  @include component.container(#ff00a0, #eec7dc);
+  max-width: 14rem;
+  //box-shadow: 5px 2px 2px rgba(168, 13, 115, 0.6);
+
+  button {
+    color: inherit;
+  }
+}
