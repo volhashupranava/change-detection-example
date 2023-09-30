@@ -1,7 +1,7 @@
 export class CDCountClass {
    private cdCount = 0;
 
-   getCDCountString(): string {
+   get cdCountString(): string {
      return `(CD ${ ++this.cdCount })`;
    }
 }
