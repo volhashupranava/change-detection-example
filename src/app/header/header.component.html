@@ -1,9 +1,9 @@
 <h4>
   Header component
-<!--    {{ cdCountString }}-->
+    {{ formattedCDCount }}
 </h4>
 <div>
-  <p>button clicks: {{ clickCount }}</p>
+  <p>header button clicks: {{ clickCount }}</p>
   <p>search value: {{ searchValue }}</p>
 </div>
 <app-search (searchChange)="onSearchChange($event)"></app-search>
