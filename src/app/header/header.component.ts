@@ -10,7 +10,13 @@ import { CDCountClass } from '../cd-count.class';
 export class HeaderComponent extends CDCountClass {
 
   clickCount = 0;
+  searchValue = '';
+
   onButtonClick(): void {
     this.clickCount++;
+  }
+
+  onSearchChange(value: string): void {
+    this.searchValue = value;
   }
 }

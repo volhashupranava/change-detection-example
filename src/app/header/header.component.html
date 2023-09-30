@@ -2,6 +2,9 @@
   Header component
   <!--  {{ getCDCountString() }}-->
 </h4>
-<p>button clicks: {{ clickCount }}</p>
-<app-search></app-search>
+<div>
+  <p>button clicks: {{ clickCount }}</p>
+  <p>search value: {{ searchValue }}</p>
+</div>
+<app-search (searchChange)="onSearchChange($event)"></app-search>
 <app-button label="Menu" (buttonClick)="onButtonClick()"></app-button>
